@@ -15,7 +15,7 @@ namespace VeterinarioPro2022
         public login_clientes()
         {
             InitializeComponent();
-            nombreUsuario.Cursor = Cursor.
+           
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -52,6 +52,13 @@ namespace VeterinarioPro2022
                 contraseñaUsuario.Text = "Contraseña";
             contraseñaUsuario.ForeColor = Color.Gray;
             contraseñaUsuario.UseSystemPasswordChar = true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Inicio_cliente ic = new Inicio_cliente();
+            ic.Show();
+            Hide();
         }
     }
 }
