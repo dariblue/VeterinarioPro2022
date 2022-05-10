@@ -10,19 +10,14 @@ using System.Windows.Forms;
 
 namespace VeterinarioPro2022
 {
-    public partial class datosAnimal : Form
+    public partial class pedir_cita : Form
     {
-        public datosAnimal()
+        public pedir_cita()
         {
             InitializeComponent();
         }
 
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
