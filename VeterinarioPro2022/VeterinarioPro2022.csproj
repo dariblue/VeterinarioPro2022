@@ -68,6 +68,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="inicio_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio_cliente.Designer.cs">
+      <DependentUpon>inicio_cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="login_clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="inicio_cliente.resx">
+      <DependentUpon>inicio_cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="login_clientes.resx">
       <DependentUpon>login_clientes.cs</DependentUpon>
     </EmbeddedResource>
@@ -134,6 +143,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Erizo.ico" />
+    <None Include="Resources\gatete.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
