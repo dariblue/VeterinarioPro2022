@@ -124,6 +124,12 @@
     <Compile Include="datos_animal.Designer.cs">
       <DependentUpon>datos_animal.cs</DependentUpon>
     </Compile>
+    <Compile Include="inicio_trabajador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="inicio_trabajador.Designer.cs">
+      <DependentUpon>inicio_trabajador.cs</DependentUpon>
+    </Compile>
     <Compile Include="login_clientes.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +156,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="registro_c.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registro_c.Designer.cs">
+      <DependentUpon>registro_c.cs</DependentUpon>
+    </Compile>
+    <Compile Include="registro_t.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="registro_t.Designer.cs">
+      <DependentUpon>registro_t.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="datos_animal.resx">
       <DependentUpon>datos_animal.cs</DependentUpon>
     </EmbeddedResource>
