@@ -15,13 +15,14 @@ namespace VeterinarioPro2022
         public login_clientes()
         {
             InitializeComponent();
-           
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {   //codigo para que al cerrar el form se cierre la aplicacion
             if (e.CloseReason == CloseReason.WindowsShutDown) return;
-            Application.Exit();
+            //Application.Exit();
+            Identificate inicio = new Identificate();
+            inicio.Show();
         }
 
         private void nombreUsuario_Enter(object sender, EventArgs e)
