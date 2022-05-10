@@ -24,7 +24,16 @@ namespace VeterinarioPro2022
 
         private void button2_Click(object sender, EventArgs e)
         {
+            datos_animal da = new datos_animal();
+            da.Show();
+            Hide();
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            pedir_cita pc = new pedir_cita();
+            pc.Show();
+            Hide();
         }
     }
 }
