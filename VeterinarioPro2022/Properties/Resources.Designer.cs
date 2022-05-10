@@ -63,9 +63,29 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _10_04_dia_mundial_de_los_animales_gato_m {
+            get {
+                object obj = ResourceManager.GetObject("10-04_dia-mundial-de-los-animales_gato_m", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap animal_branch_cute_snow_wallpaper_preview {
             get {
                 object obj = ResourceManager.GetObject("animal-branch-cute-snow-wallpaper-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Animales_domésticos {
+            get {
+                object obj = ResourceManager.GetObject("Animales-domésticos", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -107,6 +127,16 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap giphy {
             get {
                 object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap img_heridas_perros_patas_2 {
+            get {
+                object obj = ResourceManager.GetObject("img_heridas-perros-patas-2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
