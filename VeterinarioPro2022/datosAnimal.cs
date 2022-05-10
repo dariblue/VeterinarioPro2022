@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace VeterinarioPro2022
 {
-    public partial class Form1 : Form
+    public partial class datosAnimal : Form
     {
-        public Form1()
+        public datosAnimal()
         {
             InitializeComponent();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
