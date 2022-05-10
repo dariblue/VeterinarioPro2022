@@ -15,7 +15,7 @@ namespace VeterinarioPro2022
         public login_clientes()
         {
             InitializeComponent();
-            nombreUsuario.Cursor = Cursor.
+           
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
