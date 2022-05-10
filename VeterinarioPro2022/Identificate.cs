@@ -17,6 +17,12 @@ namespace VeterinarioPro2022
             InitializeComponent();
         }
 
+        protected override void OnFormClosing(FormClosingEventArgs e)
+        {   //codigo para que al cerrar el form se cierre la aplicacion
+            if (e.CloseReason == CloseReason.WindowsShutDown) return;
+            Application.Exit();
+        }
+
         private void Acceso_Cliente_Click(object sender, EventArgs e)
         {   //acceder a la pantalla de inicio de sesion de los clientes
             this.Hide();
