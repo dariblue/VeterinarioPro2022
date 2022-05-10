@@ -113,13 +113,13 @@
   <ItemGroup>
     <Compile Include="Conexion.cs" />
     <Compile Include="datos_animal.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="inicio_cliente.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="inicio_cliente.Designer.cs">
       <DependentUpon>inicio_cliente.cs</DependentUpon>
-    <Compile Include="datosAnimal.cs">
-      <SubType>Form</SubType>
     </Compile>
     <Compile Include="datos_animal.Designer.cs">
       <DependentUpon>datos_animal.cs</DependentUpon>
@@ -152,10 +152,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="datos_animal.resx">
       <DependentUpon>datos_animal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="inicio_cliente.resx">
       <DependentUpon>inicio_cliente.cs</DependentUpon>
-    <EmbeddedResource Include="datosAnimal.resx">
-      <DependentUpon>datosAnimal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="login_clientes.resx">
       <DependentUpon>login_clientes.cs</DependentUpon>

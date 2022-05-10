@@ -116,7 +116,7 @@ namespace VeterinarioPro2022
             // 
             // monthCalendar1
             // 
-            this.monthCalendar1.Location = new System.Drawing.Point(470, 164);
+            this.monthCalendar1.Location = new System.Drawing.Point(467, 164);
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 10;
             // 
