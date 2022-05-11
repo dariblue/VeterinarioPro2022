@@ -51,6 +51,10 @@ namespace VeterinarioPro2022
             label6.Show();
             button9.Hide();
             label11.Show();
+            button10.Show();
+            button13.Show();
+            button11.Show();
+            button12.Show();
             oculta_primerapag();
         }
 
@@ -69,8 +73,8 @@ namespace VeterinarioPro2022
             label9.Hide();
             label10.Hide();
             label12.Hide();
-            button8.Hide();
             button10.Hide();
+            button13.Hide();
             button11.Hide();
             button12.Hide();
         }
@@ -89,7 +93,7 @@ namespace VeterinarioPro2022
             button4.Hide();
             button5.Hide();
             button6.Hide();
-            button7.Hide();
+            button8.Hide();
 
         }
         private void button3_Click(object sender, EventArgs e)
@@ -104,8 +108,8 @@ namespace VeterinarioPro2022
             label10.Show();
             label12.Show();
             button9.Show();
-            button8.Show();
             button10.Show();
+            button13.Show();
             button11.Show();
             button12.Show();
             oculta_segundapag();
@@ -114,16 +118,6 @@ namespace VeterinarioPro2022
         private void pictureBox6_Click(object sender, EventArgs e)
         {
 
-        }
-
-        private void button4_Click_1(object sender, EventArgs e)
-        {
-            button4.Text = "Comprado";
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            button10.Text = "Comprado";
         }
 
         private void button11_Click(object sender, EventArgs e)
@@ -144,6 +138,38 @@ namespace VeterinarioPro2022
         private void button6_Click(object sender, EventArgs e)
         {
             button6.Text = "Comprado";
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+            button10.Text = "Comprado";
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            button8.Text = "Comprado";
+        }
+
+        private void label10_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            button10.Text = "Comprado";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            button4.Text = "Comprado";
+        }
+
+        private void button13_Click(object sender, EventArgs e)
+        {
+            button13.Text = "Comprado";
         }
     }
 }
