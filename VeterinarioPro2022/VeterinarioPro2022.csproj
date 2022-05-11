@@ -224,6 +224,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Erizo.ico" />
+    <None Include="Resources\animales-reptiles.jpg" />
+    <None Include="Resources\peces.jpg" />
+    <None Include="Resources\perris.jpg" />
+    <None Include="Resources\pajaros-exoticos.jpg" />
+    <None Include="Resources\razas-gatos-portada-848x477x80xX.jpg" />
+    <None Include="Resources\perros-personalidad-2.jpg" />
+    <None Include="Resources\barritas-para-perros-sticks-dentales_1_g.jpeg" />
+    <None Include="Resources\vete.jpg" />
     <None Include="Resources\10-04_dia-mundial-de-los-animales_gato_m.jpg" />
     <None Include="Resources\img_heridas-perros-patas-2.jpg" />
     <None Include="Resources\Animales-domésticos.jpg" />

@@ -93,6 +93,26 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap animales_reptiles {
+            get {
+                object obj = ResourceManager.GetObject("animales-reptiles", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap barritas_para_perros_sticks_dentales_1_g {
+            get {
+                object obj = ResourceManager.GetObject("barritas-para-perros-sticks-dentales_1_g", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bonita_foto_de_leon_en_fondo_negro_imagines_de_animales_para_fondo_de_pantalla_fondos_de_pantalla_bonitos {
             get {
                 object obj = ResourceManager.GetObject("bonita-foto-de-leon-en-fondo-negro-imagines-de-animales-para-fondo-de-pantalla-fo" +
@@ -137,6 +157,66 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap img_heridas_perros_patas_2 {
             get {
                 object obj = ResourceManager.GetObject("img_heridas-perros-patas-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pajaros_exoticos {
+            get {
+                object obj = ResourceManager.GetObject("pajaros-exoticos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap peces {
+            get {
+                object obj = ResourceManager.GetObject("peces", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perris {
+            get {
+                object obj = ResourceManager.GetObject("perris", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perros_personalidad_2 {
+            get {
+                object obj = ResourceManager.GetObject("perros-personalidad-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap razas_gatos_portada_848x477x80xX {
+            get {
+                object obj = ResourceManager.GetObject("razas-gatos-portada-848x477x80xX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap vete {
+            get {
+                object obj = ResourceManager.GetObject("vete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
