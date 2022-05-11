@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -68,6 +69,10 @@ namespace VeterinarioPro2022
             label9.Hide();
             label10.Hide();
             label12.Hide();
+            button8.Hide();
+            button10.Hide();
+            button11.Hide();
+            button12.Hide();
         }
         public void oculta_segundapag()
         {
@@ -81,6 +86,11 @@ namespace VeterinarioPro2022
             label5.Hide();
             label6.Hide();
             label12.Hide();
+            button4.Hide();
+            button5.Hide();
+            button6.Hide();
+            button7.Hide();
+
         }
         private void button3_Click(object sender, EventArgs e)
         {
@@ -94,6 +104,10 @@ namespace VeterinarioPro2022
             label10.Show();
             label12.Show();
             button9.Show();
+            button8.Show();
+            button10.Show();
+            button11.Show();
+            button12.Show();
             oculta_segundapag();
         }
 
@@ -102,9 +116,34 @@ namespace VeterinarioPro2022
 
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void button4_Click_1(object sender, EventArgs e)
         {
+            button4.Text = "Comprado";
+        }
 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            button10.Text = "Comprado";
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            button11.Text = "Comprado";
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            button12.Text = "Comprado";
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            button5.Text = "Comprado";
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            button6.Text = "Comprado";
         }
     }
 }

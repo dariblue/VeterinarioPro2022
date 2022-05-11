@@ -103,6 +103,16 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap antiestres {
+            get {
+                object obj = ResourceManager.GetObject("antiestres", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap barritas_para_perros_sticks_dentales_1_g {
             get {
                 object obj = ResourceManager.GetObject("barritas-para-perros-sticks-dentales_1_g", resourceCulture);
@@ -257,6 +267,16 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap perros_personalidad_2 {
             get {
                 object obj = ResourceManager.GetObject("perros-personalidad-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap plaqueoff_gatos_01 {
+            get {
+                object obj = ResourceManager.GetObject("plaqueoff_gatos_01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

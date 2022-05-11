@@ -224,6 +224,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Erizo.ico" />
+    <None Include="Resources\plaqueoff_gatos_01.jpg" />
+    <None Include="Resources\antiestres.jpg" />
     <None Include="Resources\pulgasgato.jpg" />
     <None Include="Resources\desparasitantegato1.jpg" />
     <None Include="Resources\collar_pulgas.jpg" />
