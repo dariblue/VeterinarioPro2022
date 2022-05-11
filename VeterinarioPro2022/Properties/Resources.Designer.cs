@@ -113,10 +113,70 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap barritas_para_perros_sticks_dentales_1_g1 {
+            get {
+                object obj = ResourceManager.GetObject("barritas-para-perros-sticks-dentales_1_g1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap bonita_foto_de_leon_en_fondo_negro_imagines_de_animales_para_fondo_de_pantalla_fondos_de_pantalla_bonitos {
             get {
                 object obj = ResourceManager.GetObject("bonita-foto-de-leon-en-fondo-negro-imagines-de-animales-para-fondo-de-pantalla-fo" +
                         "ndos-de-pantalla-bonitos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap collar_antiparasitos {
+            get {
+                object obj = ResourceManager.GetObject("collar antiparasitos", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap collar_antiparasitos_para_perros_medianos_o_pequeños {
+            get {
+                object obj = ResourceManager.GetObject("collar antiparasitos para perros medianos o pequeños", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap collar_pulgas {
+            get {
+                object obj = ResourceManager.GetObject("collar_pulgas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap desparasitantegato {
+            get {
+                object obj = ResourceManager.GetObject("desparasitantegato", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap desparasitantegato1 {
+            get {
+                object obj = ResourceManager.GetObject("desparasitantegato1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -197,6 +257,16 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap perros_personalidad_2 {
             get {
                 object obj = ResourceManager.GetObject("perros-personalidad-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pulgasgato {
+            get {
+                object obj = ResourceManager.GetObject("pulgasgato", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

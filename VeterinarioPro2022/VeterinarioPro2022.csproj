@@ -224,6 +224,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Erizo.ico" />
+    <None Include="Resources\pulgasgato.jpg" />
+    <None Include="Resources\desparasitantegato1.jpg" />
+    <None Include="Resources\collar_pulgas.jpg" />
+    <None Include="Resources\barritas-para-perros-sticks-dentales_1_g1.jpeg" />
+    <None Include="Resources\desparasitantegato.jpg" />
+    <None Include="Resources\collar antiparasitos.jpg" />
+    <None Include="Resources\collar antiparasitos para perros medianos o pequeños.jpg" />
     <None Include="Resources\animales-reptiles.jpg" />
     <None Include="Resources\peces.jpg" />
     <None Include="Resources\perris.jpg" />
