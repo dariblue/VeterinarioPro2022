@@ -29,23 +29,24 @@ namespace VeterinarioPro2022
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.botonAtras = new System.Windows.Forms.Button();
             this.label_usuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.botonAnadir = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
+            // botonAtras
             // 
-            this.button1.Location = new System.Drawing.Point(12, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(85, 40);
-            this.button1.TabIndex = 23;
-            this.button1.Text = "ATRÁS";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.botonAtras.Location = new System.Drawing.Point(12, 12);
+            this.botonAtras.Name = "botonAtras";
+            this.botonAtras.Size = new System.Drawing.Size(85, 40);
+            this.botonAtras.TabIndex = 23;
+            this.botonAtras.Text = "ATRÁS";
+            this.botonAtras.UseVisualStyleBackColor = true;
+            this.botonAtras.Click += new System.EventHandler(this.button1_Click);
             // 
             // label_usuario
             // 
@@ -101,17 +102,29 @@ namespace VeterinarioPro2022
             this.monthCalendar1.Name = "monthCalendar1";
             this.monthCalendar1.TabIndex = 28;
             // 
+            // botonAnadir
+            // 
+            this.botonAnadir.Location = new System.Drawing.Point(703, 12);
+            this.botonAnadir.Name = "botonAnadir";
+            this.botonAnadir.Size = new System.Drawing.Size(85, 40);
+            this.botonAnadir.TabIndex = 29;
+            this.botonAnadir.Text = "AÑADIR";
+            this.botonAnadir.UseVisualStyleBackColor = true;
+            // 
             // pedir_cita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.istockphoto_1297688669_170667a;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 490);
+            this.Controls.Add(this.botonAnadir);
             this.Controls.Add(this.monthCalendar1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label_usuario);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.botonAtras);
             this.Name = "pedir_cita";
             this.Text = "pedir_Cita";
             this.ResumeLayout(false);
@@ -121,11 +134,12 @@ namespace VeterinarioPro2022
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button botonAtras;
         private System.Windows.Forms.Label label_usuario;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.MonthCalendar monthCalendar1;
+        private System.Windows.Forms.Button botonAnadir;
     }
 }

@@ -84,6 +84,16 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cuidados_veterinarios_kNFH__1200x630_abc {
+            get {
+                object obj = ResourceManager.GetObject("Cuidados-veterinarios-kNFH--1200x630@abc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_de_pantalla_veterinario {
             get {
                 object obj = ResourceManager.GetObject("Fondo de pantalla veterinario", resourceCulture);
@@ -107,6 +117,56 @@ namespace VeterinarioPro2022.Properties {
         internal static System.Drawing.Bitmap giphy {
             get {
                 object obj = ResourceManager.GetObject("giphy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grupo_de_animales_domésticos_en_el_fondo_blanco_93525756 {
+            get {
+                object obj = ResourceManager.GetObject("grupo-de-animales-domésticos-en-el-fondo-blanco-93525756", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap inicio {
+            get {
+                object obj = ResourceManager.GetObject("inicio", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1297688669_170667a {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1297688669-170667a", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap línea_fina_modelo_inconsútil_del_vector_veterinario_arte_127686959 {
+            get {
+                object obj = ResourceManager.GetObject("línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MASCOTAS {
+            get {
+                object obj = ResourceManager.GetObject("MASCOTAS", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
