@@ -51,10 +51,10 @@ namespace VeterinarioPro2022
             label6.Show();
             button9.Hide();
             label11.Show();
-            button10.Show();
-            button13.Show();
-            button11.Show();
-            button12.Show();
+            button4.Show();
+            button5.Show();
+            button6.Show();
+            button8.Show();
             oculta_primerapag();
         }
 
@@ -77,6 +77,7 @@ namespace VeterinarioPro2022
             button13.Hide();
             button11.Hide();
             button12.Hide();
+            button9.Hide();
         }
         public void oculta_segundapag()
         {
