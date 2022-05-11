@@ -16,7 +16,7 @@ namespace VeterinarioPro2022
         {
             conexion = new MySqlConnection("Server = 127.0.0.1; Database = veterinario; Uid = VeterinarioPro; Pwd =liSenDrinCle; Port = 3306");
         }
-        public Boolean insertaUsuarios(string _chip, string _nombreMascota, string _especieMascota, string _razaMascota, string _DNI)
+        public Boolean insertaMascotas(string _chip, string _nombreMascota, string _especieMascota, string _razaMascota, string _DNI)
         {
             try
             {
@@ -46,5 +46,6 @@ namespace VeterinarioPro2022
             }
 
         }
+        
     }
 }

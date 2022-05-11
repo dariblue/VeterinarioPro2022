@@ -16,10 +16,32 @@ namespace VeterinarioPro2022
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void botonAtras_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            inicio_cliente ventana = new inicio_cliente();
+            ventana.Show();
+        }
+        private void botonAnadir_Click(object sender, EventArgs e)
+        {
+            if (chipMascota.Text.Length > 0 && nombreMascota.Text.Length > 0 && especieMascota.Text.Length > 0 && razaMascota.Text.Length > 0)
+            {
 
+                Boolean resultado = miConexion.insertaUsuarios(chipMascota.Text, nombreMascota.Text, especieMascota.Text, razaMascota.Text, dniDueno.Text);
+
+                if (resultado)
+                {
+                    MessageBox.Show("Usuario creado");
+                }
+                else
+                {
+                    MessageBox.Show("ERROR AL CREAR EL USUARIO");
+                }
+            }
+            else
+            {
+                MessageBox.Show("ERROR");
+            }
         }
     }
 }

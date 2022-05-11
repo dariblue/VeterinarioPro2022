@@ -29,87 +29,85 @@ namespace VeterinarioPro2022
         /// </summary>
         private void InitializeComponent()
         {
-            this.botonAtras = new System.Windows.Forms.Button();
-            this.label_usuario = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
             this.botonAnadir = new System.Windows.Forms.Button();
+            this.botonAtras = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
+            this.chipMascota = new System.Windows.Forms.TextBox();
+            this.especieMascota = new System.Windows.Forms.TextBox();
+            this.label_usuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
+            // 
+            // botonAnadir
+            // 
+            this.botonAnadir.BackColor = System.Drawing.Color.LightGreen;
+            this.botonAnadir.FlatAppearance.BorderColor = System.Drawing.Color.OliveDrab;
+            this.botonAnadir.FlatAppearance.BorderSize = 2;
+            this.botonAnadir.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.botonAnadir.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.botonAnadir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonAnadir.Location = new System.Drawing.Point(446, 394);
+            this.botonAnadir.Name = "botonAnadir";
+            this.botonAnadir.Size = new System.Drawing.Size(150, 62);
+            this.botonAnadir.TabIndex = 30;
+            this.botonAnadir.Text = "AÑADIR";
+            this.botonAnadir.UseVisualStyleBackColor = false;
+            this.botonAnadir.Click += new System.EventHandler(this.botonAnadir_Click);
             // 
             // botonAtras
             // 
-            this.botonAtras.Location = new System.Drawing.Point(12, 12);
+            this.botonAtras.BackColor = System.Drawing.Color.IndianRed;
+            this.botonAtras.FlatAppearance.BorderColor = System.Drawing.Color.Firebrick;
+            this.botonAtras.FlatAppearance.BorderSize = 2;
+            this.botonAtras.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.botonAtras.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.botonAtras.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonAtras.Location = new System.Drawing.Point(216, 394);
             this.botonAtras.Name = "botonAtras";
-            this.botonAtras.Size = new System.Drawing.Size(85, 40);
-            this.botonAtras.TabIndex = 23;
+            this.botonAtras.Size = new System.Drawing.Size(150, 62);
+            this.botonAtras.TabIndex = 31;
             this.botonAtras.Text = "ATRÁS";
-            this.botonAtras.UseVisualStyleBackColor = true;
-            this.botonAtras.Click += new System.EventHandler(this.button1_Click);
+            this.botonAtras.UseVisualStyleBackColor = false;
+            this.botonAtras.Click += new System.EventHandler(this.botonAtras_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(52, 84);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(84, 31);
+            this.label5.TabIndex = 32;
+            this.label5.Text = "CHIP";
+            // 
+            // chipMascota
+            // 
+            this.chipMascota.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.chipMascota.Location = new System.Drawing.Point(58, 135);
+            this.chipMascota.Name = "chipMascota";
+            this.chipMascota.Size = new System.Drawing.Size(236, 35);
+            this.chipMascota.TabIndex = 33;
+            // 
+            // especieMascota
+            // 
+            this.especieMascota.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.especieMascota.Location = new System.Drawing.Point(467, 135);
+            this.especieMascota.Name = "especieMascota";
+            this.especieMascota.Size = new System.Drawing.Size(237, 35);
+            this.especieMascota.TabIndex = 34;
             // 
             // label_usuario
             // 
             this.label_usuario.AutoSize = true;
             this.label_usuario.BackColor = System.Drawing.Color.Transparent;
             this.label_usuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label_usuario.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label_usuario.Location = new System.Drawing.Point(83, 90);
+            this.label_usuario.ForeColor = System.Drawing.Color.White;
+            this.label_usuario.Location = new System.Drawing.Point(461, 84);
             this.label_usuario.Name = "label_usuario";
-            this.label_usuario.Size = new System.Drawing.Size(121, 31);
-            this.label_usuario.TabIndex = 24;
-            this.label_usuario.Text = "ANIMAL";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label1.Location = new System.Drawing.Point(533, 90);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 31);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "MOTIVO";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label2.Location = new System.Drawing.Point(86, 223);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 31);
-            this.label2.TabIndex = 26;
-            this.label2.Text = "FECHA";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label3.Location = new System.Drawing.Point(533, 223);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(97, 31);
-            this.label3.TabIndex = 27;
-            this.label3.Text = "HORA";
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(49, 263);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.TabIndex = 28;
-            // 
-            // botonAnadir
-            // 
-            this.botonAnadir.Location = new System.Drawing.Point(703, 12);
-            this.botonAnadir.Name = "botonAnadir";
-            this.botonAnadir.Size = new System.Drawing.Size(85, 40);
-            this.botonAnadir.TabIndex = 29;
-            this.botonAnadir.Text = "AÑADIR";
-            this.botonAnadir.UseVisualStyleBackColor = true;
+            this.label_usuario.Size = new System.Drawing.Size(127, 31);
+            this.label_usuario.TabIndex = 35;
+            this.label_usuario.Text = "MOTIVO";
             // 
             // pedir_cita
             // 
@@ -118,13 +116,12 @@ namespace VeterinarioPro2022
             this.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.istockphoto_1297688669_170667a;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 490);
-            this.Controls.Add(this.botonAnadir);
-            this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.label_usuario);
+            this.Controls.Add(this.especieMascota);
+            this.Controls.Add(this.chipMascota);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.botonAtras);
+            this.Controls.Add(this.botonAnadir);
             this.Name = "pedir_cita";
             this.Text = "pedir_Cita";
             this.ResumeLayout(false);
@@ -133,13 +130,11 @@ namespace VeterinarioPro2022
         }
 
         #endregion
-
-        private System.Windows.Forms.Button botonAtras;
-        private System.Windows.Forms.Label label_usuario;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
         private System.Windows.Forms.Button botonAnadir;
+        private System.Windows.Forms.Button botonAtras;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox chipMascota;
+        private System.Windows.Forms.TextBox especieMascota;
+        private System.Windows.Forms.Label label_usuario;
     }
 }

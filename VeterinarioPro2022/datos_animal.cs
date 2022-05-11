@@ -31,7 +31,7 @@ namespace VeterinarioPro2022
             if (chipMascota.Text.Length > 0 && nombreMascota.Text.Length > 0 && especieMascota.Text.Length > 0 && razaMascota.Text.Length > 0)
             {
 
-                Boolean resultado = miConexion.insertaUsuarios(chipMascota.Text, nombreMascota.Text, especieMascota.Text, razaMascota.Text, dniDueno.Text);
+                Boolean resultado = miConexion.insertaMascotas(chipMascota.Text, nombreMascota.Text, especieMascota.Text, razaMascota.Text, dniDueno.Text);
 
                 if (resultado)
                 {
