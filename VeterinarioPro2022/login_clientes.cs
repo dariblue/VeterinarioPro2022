@@ -25,18 +25,18 @@ namespace VeterinarioPro2022
             inicio.Show();
         }
 
-        private void nombreUsuario_Enter(object sender, EventArgs e)
+        private void NombreUsuario_Enter(object sender, EventArgs e)
         {   //al entrar al textbox quita la palabra usuario para escribir
-            if (nombreUsuario.Text == "Usuario")
-                nombreUsuario.Text = null;
-            nombreUsuario.ForeColor = Color.Black;
+            if (NombreUsuario.Text == "Usuario")
+                NombreUsuario.Text = null;
+            NombreUsuario.ForeColor = Color.Black;
         }
 
-        private void nombreUsuario_Leave(object sender, EventArgs e)
+        private void NombreUsuario_Leave(object sender, EventArgs e)
         {   // si no ha escrito nada al salir de textbox vuelve a poner Usuario y deja el color en gris
-            if (nombreUsuario.Text == "")
-                nombreUsuario.Text = "Usuario";
-            nombreUsuario.ForeColor = Color.Gray;
+            if (NombreUsuario.Text == "")
+                NombreUsuario.Text = "Usuario";
+            NombreUsuario.ForeColor = Color.Gray;
         }
 
         private void contraseñaUsuario_Enter(object sender, EventArgs e)
@@ -48,7 +48,7 @@ namespace VeterinarioPro2022
         }
 
         private void contraseñaUsuario_Leave(object sender, EventArgs e)
-        {   // si no ha puesto nada al salir pone contraseña y pone seguridad para que no se vea la contraseñas
+        {    // si no ha puesto nada al salir pone contraseña y pone seguridad para que no se vea la contraseñas
             if (contraseñaUsuario.Text == "")
                 contraseñaUsuario.Text = "Contraseña";
             contraseñaUsuario.ForeColor = Color.Gray;
