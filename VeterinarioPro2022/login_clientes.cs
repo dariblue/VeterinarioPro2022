@@ -12,6 +12,8 @@ namespace VeterinarioPro2022
 {
     public partial class login_clientes : Form
     {
+
+        Conexion conexion = new Conexion();
         public login_clientes()
         {
             InitializeComponent();
@@ -53,6 +55,14 @@ namespace VeterinarioPro2022
                 contraseñaUsuario.Text = "Contraseña";
             contraseñaUsuario.ForeColor = Color.Gray;
             contraseñaUsuario.UseSystemPasswordChar = true;
+        }
+
+        private void botonAcceder_Click(object sender, EventArgs e)
+        {
+            //if (conexion.login_Cliente(NombreUsuario.Text, contraseñaUsuario.Text))
+            this.Hide();
+            inicio_cliente pantallaCliente = new inicio_cliente();
+            pantallaCliente.Show();
         }
     }
 }

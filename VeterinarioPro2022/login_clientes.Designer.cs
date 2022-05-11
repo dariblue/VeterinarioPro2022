@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(login_clientes));
-            this.button1 = new System.Windows.Forms.Button();
+            this.botonAcceder = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.label_usuario = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -39,23 +39,24 @@
             this.contraseñaUsuario = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // botonAcceder
             // 
-            this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 3;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(592, 502);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(146, 50);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "ACCEDER";
-            this.button1.UseVisualStyleBackColor = false;
+            this.botonAcceder.BackColor = System.Drawing.Color.Transparent;
+            this.botonAcceder.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.botonAcceder.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.botonAcceder.FlatAppearance.BorderSize = 3;
+            this.botonAcceder.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.botonAcceder.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.botonAcceder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.botonAcceder.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.botonAcceder.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.botonAcceder.Location = new System.Drawing.Point(592, 502);
+            this.botonAcceder.Name = "botonAcceder";
+            this.botonAcceder.Size = new System.Drawing.Size(146, 50);
+            this.botonAcceder.TabIndex = 6;
+            this.botonAcceder.Text = "ACCEDER";
+            this.botonAcceder.UseVisualStyleBackColor = false;
+            this.botonAcceder.Click += new System.EventHandler(this.botonAcceder_Click);
             // 
             // label2
             // 
@@ -160,7 +161,7 @@
             this.Controls.Add(this.contraseñaUsuario);
             this.Controls.Add(this.NombreUsuario);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.botonAcceder);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label_usuario);
             this.Controls.Add(this.label1);
@@ -175,7 +176,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button botonAcceder;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label_usuario;
         private System.Windows.Forms.Label label1;
