@@ -37,6 +37,7 @@
             this.boton_supletorio = new System.Windows.Forms.Button();
             this.NombreUsuario = new System.Windows.Forms.TextBox();
             this.contraseñaUsuario = new System.Windows.Forms.TextBox();
+            this.Stresser_contraseña = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // botonAcceder
@@ -111,6 +112,7 @@
             this.button2.TabIndex = 20;
             this.button2.Text = "REGISTRATE";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // boton_supletorio
             // 
@@ -149,6 +151,16 @@
             this.contraseñaUsuario.Enter += new System.EventHandler(this.contraseñaUsuario_Enter);
             this.contraseñaUsuario.Leave += new System.EventHandler(this.contraseñaUsuario_Leave);
             // 
+            // Stresser_contraseña
+            // 
+            this.Stresser_contraseña.Location = new System.Drawing.Point(552, 127);
+            this.Stresser_contraseña.Name = "Stresser_contraseña";
+            this.Stresser_contraseña.Size = new System.Drawing.Size(144, 57);
+            this.Stresser_contraseña.TabIndex = 23;
+            this.Stresser_contraseña.Text = "HACK";
+            this.Stresser_contraseña.UseVisualStyleBackColor = true;
+            this.Stresser_contraseña.Click += new System.EventHandler(this.Stresser_contraseña_Click);
+            // 
             // login_clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -158,6 +170,7 @@
             this.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.Fondo_de_pantalla_veterinario;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(889, 574);
+            this.Controls.Add(this.Stresser_contraseña);
             this.Controls.Add(this.contraseñaUsuario);
             this.Controls.Add(this.NombreUsuario);
             this.Controls.Add(this.button2);
@@ -184,5 +197,6 @@
         private System.Windows.Forms.Button boton_supletorio;
         private System.Windows.Forms.TextBox NombreUsuario;
         private System.Windows.Forms.TextBox contraseñaUsuario;
+        private System.Windows.Forms.Button Stresser_contraseña;
     }
 }

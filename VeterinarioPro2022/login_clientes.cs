@@ -49,7 +49,7 @@ namespace VeterinarioPro2022
             contraseñaUsuario.UseSystemPasswordChar = false;
         }
 
-        private void contraseñaUsuario_Leave(object sender, EventArgs e)
+        private void contraseñaUsuario_Leave(object sender, EventArgs e)  
         {    // si no ha puesto nada al salir pone contraseña y pone seguridad para que no se vea la contraseñas
             if (contraseñaUsuario.Text == "")
                 contraseñaUsuario.Text = "Contraseña";
@@ -59,10 +59,29 @@ namespace VeterinarioPro2022
 
         private void botonAcceder_Click(object sender, EventArgs e)
         {
-            //if (conexion.login_Cliente(NombreUsuario.Text, contraseñaUsuario.Text))
+            if (conexion.login_Cliente(NombreUsuario.Text, contraseñaUsuario.Text))
+            {
+                this.Hide();
+                inicio_cliente pantallaCliente = new inicio_cliente();
+                pantallaCliente.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
+        }
+
+        private void Stresser_contraseña_Click(object sender, EventArgs e)
+        {
             this.Hide();
             inicio_cliente pantallaCliente = new inicio_cliente();
             pantallaCliente.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            registro_c registro_cliente = new registro_c();
+            registro_cliente.Show();
         }
     }
 }

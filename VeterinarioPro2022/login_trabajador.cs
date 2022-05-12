@@ -12,6 +12,7 @@ namespace VeterinarioPro2022
 {
     public partial class login_trabajador : Form
     {
+        Conexion conexion = new Conexion();
         public login_trabajador()
         {
             InitializeComponent();
@@ -57,9 +58,23 @@ namespace VeterinarioPro2022
 
         private void botonAcceder_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            inicio_trabajador pantallaTrabajador = new inicio_trabajador();
-            pantallaTrabajador.Show();
+            
+
+            if (conexion.login_trabajadores(NombreUsuario.Text, contraseñaUsuario.Text))
+            {
+                this.Hide();
+                inicio_trabajador pantallaTrabajador = new inicio_trabajador();
+                pantallaTrabajador.Show();
+            }
+            else
+            {
+                MessageBox.Show("Usuario o contraseña incorrectos");
+            }
+
+
+
+
+
         }
     }
 }
