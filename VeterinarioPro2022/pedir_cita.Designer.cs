@@ -33,8 +33,10 @@ namespace VeterinarioPro2022
             this.botonAtras = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.chipMascota = new System.Windows.Forms.TextBox();
-            this.especieMascota = new System.Windows.Forms.TextBox();
+            this.motivoCita = new System.Windows.Forms.TextBox();
             this.label_usuario = new System.Windows.Forms.Label();
+            this.horarioCita = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // botonAnadir
@@ -89,13 +91,14 @@ namespace VeterinarioPro2022
             this.chipMascota.Size = new System.Drawing.Size(236, 35);
             this.chipMascota.TabIndex = 33;
             // 
-            // especieMascota
+            // motivoCita
             // 
-            this.especieMascota.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.especieMascota.Location = new System.Drawing.Point(467, 135);
-            this.especieMascota.Name = "especieMascota";
-            this.especieMascota.Size = new System.Drawing.Size(237, 35);
-            this.especieMascota.TabIndex = 34;
+            this.motivoCita.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.motivoCita.Location = new System.Drawing.Point(467, 135);
+            this.motivoCita.Multiline = true;
+            this.motivoCita.Name = "motivoCita";
+            this.motivoCita.Size = new System.Drawing.Size(280, 174);
+            this.motivoCita.TabIndex = 34;
             // 
             // label_usuario
             // 
@@ -109,6 +112,26 @@ namespace VeterinarioPro2022
             this.label_usuario.TabIndex = 35;
             this.label_usuario.Text = "MOTIVO";
             // 
+            // horarioCita
+            // 
+            this.horarioCita.FormattingEnabled = true;
+            this.horarioCita.Location = new System.Drawing.Point(58, 272);
+            this.horarioCita.Name = "horarioCita";
+            this.horarioCita.Size = new System.Drawing.Size(236, 21);
+            this.horarioCita.TabIndex = 36;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(52, 220);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(230, 31);
+            this.label1.TabIndex = 37;
+            this.label1.Text = "FECHA Y HORA";
+            // 
             // pedir_cita
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -116,8 +139,10 @@ namespace VeterinarioPro2022
             this.BackgroundImage = global::VeterinarioPro2022.Properties.Resources.istockphoto_1297688669_170667a;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 490);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.horarioCita);
             this.Controls.Add(this.label_usuario);
-            this.Controls.Add(this.especieMascota);
+            this.Controls.Add(this.motivoCita);
             this.Controls.Add(this.chipMascota);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.botonAtras);
@@ -134,7 +159,9 @@ namespace VeterinarioPro2022
         private System.Windows.Forms.Button botonAtras;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox chipMascota;
-        private System.Windows.Forms.TextBox especieMascota;
+        private System.Windows.Forms.TextBox motivoCita;
         private System.Windows.Forms.Label label_usuario;
+        private System.Windows.Forms.ComboBox horarioCita;
+        private System.Windows.Forms.Label label1;
     }
 }

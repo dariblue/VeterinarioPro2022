@@ -13,18 +13,9 @@ namespace VeterinarioPro2022
     public partial class datos_animal : Form
     {
         Conexion miConexion = new Conexion();
-        DataTable veterinario = new DataTable();
         public datos_animal()
         {
             InitializeComponent();
-        }
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
         private void botonAnadir_Click(object sender, EventArgs e)
         {
@@ -52,6 +43,14 @@ namespace VeterinarioPro2022
             this.Hide();
             inicio_cliente ventana = new inicio_cliente();
             ventana.Show();
+        }
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -12,6 +12,8 @@ namespace VeterinarioPro2022
 {
     public partial class pedir_cita : Form
     {
+        Conexion miConexion = new Conexion();
+
         public pedir_cita()
         {
             InitializeComponent();
@@ -24,18 +26,18 @@ namespace VeterinarioPro2022
         }
         private void botonAnadir_Click(object sender, EventArgs e)
         {
-            if (chipMascota.Text.Length > 0 && nombreMascota.Text.Length > 0 && especieMascota.Text.Length > 0 && razaMascota.Text.Length > 0)
+            if (chipMascota.Text.Length > 0 && motivoCita.Text.Length > 0)
             {
 
-                Boolean resultado = miConexion.insertaUsuarios(chipMascota.Text, nombreMascota.Text, especieMascota.Text, razaMascota.Text, dniDueno.Text);
+                Boolean resultado = miConexion.insertaCitas(chipMascota.Text, motivoCita.Text);
 
                 if (resultado)
                 {
-                    MessageBox.Show("Usuario creado");
+                    MessageBox.Show("Cita creada");
                 }
                 else
                 {
-                    MessageBox.Show("ERROR AL CREAR EL USUARIO");
+                    MessageBox.Show("ERROR AL CREAR LA CITA");
                 }
             }
             else

@@ -94,6 +94,16 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Equipo_Clinica_Veterinaria_Ejea_1 {
+            get {
+                object obj = ResourceManager.GetObject("Equipo-Clinica-Veterinaria-Ejea-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_de_pantalla_veterinario {
             get {
                 object obj = ResourceManager.GetObject("Fondo de pantalla veterinario", resourceCulture);
