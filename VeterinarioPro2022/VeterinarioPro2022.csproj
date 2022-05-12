@@ -55,6 +55,9 @@
     </ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BCrypt.Net, Version=0.1.5073.29922, Culture=neutral, PublicKeyToken=6bcd409ee6bc9292, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt-Official.0.1.109\lib\BCrypt.Net.dll</HintPath>
+    </Reference>
     <Reference Include="BouncyCastle.Crypto, Version=1.8.5.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
       <HintPath>..\packages\BouncyCastle.1.8.5\lib\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
@@ -111,7 +114,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.cs" />
+    <Compile Include="Conexion_Corzo.cs" />
     <Compile Include="datos_animal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -196,6 +199,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="registro_c.resx">
+      <DependentUpon>registro_c.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="registro_t.resx">
+      <DependentUpon>registro_t.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -224,6 +233,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Erizo.ico" />
+    <Content Include="LICENSE.txt" />
+    <None Include="Resources\Equipo-Clinica-Veterinaria-Ejea-1.jpeg" />
+    <None Include="Resources\istockphoto-1297688669-170667a.jpg" />
+    <None Include="Resources\MASCOTAS.jpg" />
+    <None Include="Resources\Cuidados-veterinarios-kNFH--1200x630%40abc.jpg" />
+    <None Include="Resources\inicio.png" />
+    <None Include="Resources\línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959.jpg" />
+    <None Include="Resources\grupo-de-animales-domésticos-en-el-fondo-blanco-93525756.jpg" />
     <None Include="Resources\gatete.jpg" />
   </ItemGroup>
   <ItemGroup>
