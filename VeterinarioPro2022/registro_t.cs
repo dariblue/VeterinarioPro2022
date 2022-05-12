@@ -14,7 +14,7 @@ namespace VeterinarioPro2022
     public partial class registro_t : Form
     {
 
-        Conexion miConexion = new Conexion();
+        Conexion_Corzo miConexion = new Conexion_Corzo();
 
         public registro_t()
         {

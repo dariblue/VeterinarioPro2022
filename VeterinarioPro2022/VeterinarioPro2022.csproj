@@ -114,7 +114,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.cs" />
+    <Compile Include="Conexion_Corzo.cs" />
     <Compile Include="datos_animal.cs">
       <SubType>Form</SubType>
     </Compile>

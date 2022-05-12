@@ -12,7 +12,7 @@ namespace VeterinarioPro2022
 {
     public partial class pedir_cita : Form
     {
-        Conexion miConexion = new Conexion();
+        Conexion_Corzo miConexion = new Conexion_Corzo();
 
         public pedir_cita()
         {
