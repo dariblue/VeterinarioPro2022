@@ -130,8 +130,8 @@
   <data name="línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="animal-branch-cute-snow-wallpaper-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animal-branch-cute-snow-wallpaper-preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gatete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gatete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="MASCOTAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\MASCOTAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -141,6 +141,12 @@
   </data>
   <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="animal-branch-cute-snow-wallpaper-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\animal-branch-cute-snow-wallpaper-preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fondos-de-pantalla-de-pajaros" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fondos-de-pantalla-de-pajaros.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="bonita-foto-de-leon-en-fondo-negro-imagines-de-animales-para-fondo-de-pantalla-fondos-de-pantalla-bonitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\bonita-foto-de-leon-en-fondo-negro-imagines-de-animales-para-fondo-de-pantalla-fondos-de-pantalla-bonitos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>

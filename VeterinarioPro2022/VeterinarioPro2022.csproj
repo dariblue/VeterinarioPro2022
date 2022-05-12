@@ -114,6 +114,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Conexion_Dario.cs" />
     <Compile Include="Conexion_Corzo.cs" />
     <Compile Include="datos_animal.cs">
       <SubType>Form</SubType>
@@ -234,6 +235,7 @@
   <ItemGroup>
     <Content Include="Erizo.ico" />
     <Content Include="LICENSE.txt" />
+    <None Include="Resources\fondos-de-pantalla-de-pajaros.jpg" />
     <None Include="Resources\Equipo-Clinica-Veterinaria-Ejea-1.jpeg" />
     <None Include="Resources\istockphoto-1297688669-170667a.jpg" />
     <None Include="Resources\MASCOTAS.jpg" />
