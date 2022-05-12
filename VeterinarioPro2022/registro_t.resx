@@ -117,47 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="istockphoto-1297688669-170667a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\istockphoto-1297688669-170667a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gatete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gatete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="grupo-de-animales-domésticos-en-el-fondo-blanco-93525756" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\grupo-de-animales-domésticos-en-el-fondo-blanco-93525756.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="gatete" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gatete.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="MASCOTAS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MASCOTAS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Fondo de pantalla veterinario" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Fondo de pantalla veterinario.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="giphy" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\giphy.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="animal-branch-cute-snow-wallpaper-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\animal-branch-cute-snow-wallpaper-preview.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="fondos-de-pantalla-de-pajaros" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondos-de-pantalla-de-pajaros.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="bonita-foto-de-leon-en-fondo-negro-imagines-de-animales-para-fondo-de-pantalla-fondos-de-pantalla-bonitos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bonita-foto-de-leon-en-fondo-negro-imagines-de-animales-para-fondo-de-pantalla-fondos-de-pantalla-bonitos.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="inicio" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\inicio.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cuidados-veterinarios-kNFH--1200x630@abc" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cuidados-veterinarios-kNFH--1200x630@abc.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Equipo-Clinica-Veterinaria-Ejea-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Equipo-Clinica-Veterinaria-Ejea-1.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

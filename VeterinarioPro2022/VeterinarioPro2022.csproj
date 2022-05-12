@@ -115,6 +115,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Conexion_Dario.cs" />
+    <Compile Include="Conexion_Corzo.cs" />
     <Compile Include="datos_animal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -202,6 +203,9 @@
     <EmbeddedResource Include="registro_c.resx">
       <DependentUpon>registro_c.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="registro_t.resx">
+      <DependentUpon>registro_t.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -232,6 +236,13 @@
     <Content Include="Erizo.ico" />
     <Content Include="LICENSE.txt" />
     <None Include="Resources\fondos-de-pantalla-de-pajaros.jpg" />
+    <None Include="Resources\Equipo-Clinica-Veterinaria-Ejea-1.jpeg" />
+    <None Include="Resources\istockphoto-1297688669-170667a.jpg" />
+    <None Include="Resources\MASCOTAS.jpg" />
+    <None Include="Resources\Cuidados-veterinarios-kNFH--1200x630%40abc.jpg" />
+    <None Include="Resources\inicio.png" />
+    <None Include="Resources\línea-fina-modelo-inconsútil-del-vector-veterinario-arte-127686959.jpg" />
+    <None Include="Resources\grupo-de-animales-domésticos-en-el-fondo-blanco-93525756.jpg" />
     <None Include="Resources\gatete.jpg" />
   </ItemGroup>
   <ItemGroup>
