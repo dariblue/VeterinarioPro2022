@@ -16,5 +16,23 @@ namespace VeterinarioPro2022
         {
             conexion = new MySqlConnection("Server = 127.0.0.1; Database = veterinario; Uid = VeterinarioPro; Pwd =liSenDrinCle; Port = 3306");
         }
+        public DataTable getMascotas(String _Chip)
+        {
+            try
+            {
+                conexion.Open();
+                MySqlCommand consulta = new MySqlCommand("SELECT * FROM animales WHERE chip='" + _Chip + "'", conexion);
+                MySqlDataReader resultado = consulta.ExecuteReader(); //guardo el resultado de la query
+                DataTable veterinario = new DataTable(); //formato que espera el datagridview
+                veterinario.Load(resultado);  //convierte MysqlDataReader en DataTable
+                conexion.Close();
+                return veterinario;
+            }
+            catch (MySqlException e)
+            {
+                conexion.Close();
+                throw e;
+            }
+        }
     }
 }

@@ -264,6 +264,16 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap perris1 {
+            get {
+                object obj = ResourceManager.GetObject("perris1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap perros_personalidad_2 {
             get {
                 object obj = ResourceManager.GetObject("perros-personalidad-2", resourceCulture);

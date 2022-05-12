@@ -16,7 +16,7 @@ namespace VeterinarioPro2022
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new inicio_cliente());
+            Application.Run(new inicio_trabajador());
         }
     }
 }
