@@ -21,8 +21,7 @@ namespace VeterinarioPro2022
 
         private void button6_Click(object sender, EventArgs e)
         {
-            datosmascota = miConexion.getMascotas(getChip.Text);
-            dataGridView1.DataSource = datosmascota;
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
@@ -44,6 +43,22 @@ namespace VeterinarioPro2022
             inicio_cliente ic = new inicio_cliente();
             ic.Show();
             Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            datosmascota = miConexion.getMascotas(getChip.Text);
+            dataGridView1.DataSource = datosmascota;
+        }
+
+        private void getChip_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

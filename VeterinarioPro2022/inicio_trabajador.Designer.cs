@@ -31,13 +31,13 @@ namespace VeterinarioPro2022
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.button6 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.getChip = new System.Windows.Forms.TextBox();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -69,6 +69,26 @@ namespace VeterinarioPro2022
             this.tabPage1.Text = "tabPage1";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
+            // button8
+            // 
+            this.button8.Location = new System.Drawing.Point(56, 297);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(120, 91);
+            this.button8.TabIndex = 6;
+            this.button8.Text = "Tienda de productos para animales";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(56, 163);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(120, 91);
+            this.button9.TabIndex = 5;
+            this.button9.Text = "Pida cita si todavía no la pidió";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // button3
             // 
             this.button3.Location = new System.Drawing.Point(56, 42);
@@ -99,49 +119,32 @@ namespace VeterinarioPro2022
             this.button6.BackColor = System.Drawing.Color.LimeGreen;
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(458, 320);
+            this.button6.Location = new System.Drawing.Point(411, 327);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(75, 27);
             this.button6.TabIndex = 4;
             this.button6.Text = "Buscar";
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click_1);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(458, 121);
+            this.dataGridView1.Location = new System.Drawing.Point(411, 121);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(326, 200);
+            this.dataGridView1.Size = new System.Drawing.Size(381, 200);
             this.dataGridView1.TabIndex = 3;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // getChip
             // 
-            this.getChip.Location = new System.Drawing.Point(458, 93);
+            this.getChip.Location = new System.Drawing.Point(411, 93);
             this.getChip.Name = "getChip";
-            this.getChip.Size = new System.Drawing.Size(326, 22);
+            this.getChip.Size = new System.Drawing.Size(381, 22);
             this.getChip.TabIndex = 1;
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(56, 297);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(120, 91);
-            this.button8.TabIndex = 6;
-            this.button8.Text = "Tienda de productos para animales";
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
-            // 
-            // button9
-            // 
-            this.button9.Location = new System.Drawing.Point(56, 163);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(120, 91);
-            this.button9.TabIndex = 5;
-            this.button9.Text = "Pida cita si todavía no la pidió";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.getChip.TextChanged += new System.EventHandler(this.getChip_TextChanged);
             // 
             // inicio_trabajador
             // 
