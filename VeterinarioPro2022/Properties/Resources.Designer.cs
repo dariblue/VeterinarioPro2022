@@ -94,6 +94,16 @@ namespace VeterinarioPro2022.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondos_de_pantalla_de_pajaros {
+            get {
+                object obj = ResourceManager.GetObject("fondos-de-pantalla-de-pajaros", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gatete {
             get {
                 object obj = ResourceManager.GetObject("gatete", resourceCulture);

@@ -114,7 +114,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Conexion.cs" />
+    <Compile Include="Conexion_Dario.cs" />
     <Compile Include="datos_animal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -231,6 +231,7 @@
   <ItemGroup>
     <Content Include="Erizo.ico" />
     <Content Include="LICENSE.txt" />
+    <None Include="Resources\fondos-de-pantalla-de-pajaros.jpg" />
     <None Include="Resources\gatete.jpg" />
   </ItemGroup>
   <ItemGroup>

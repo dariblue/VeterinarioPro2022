@@ -12,7 +12,7 @@ namespace VeterinarioPro2022
 {
     public partial class login_trabajador : Form
     {
-        Conexion conexion = new Conexion();
+        Conexion_Dario conexion = new Conexion_Dario();
         public login_trabajador()
         {
             InitializeComponent();
@@ -28,7 +28,7 @@ namespace VeterinarioPro2022
 
         private void NombreUsuario_Enter(object sender, EventArgs e)
         {   //al entrar al textbox quita la palabra usuario para escribir
-            if (NombreUsuario.Text == "Usuario")
+            if (NombreUsuario.Text == "DNI")
                 NombreUsuario.Text = null;
             NombreUsuario.ForeColor = Color.Black;
         }
@@ -36,7 +36,7 @@ namespace VeterinarioPro2022
         private void NombreUsuario_Leave(object sender, EventArgs e)
         {   // si no ha escrito nada al salir de textbox vuelve a poner Usuario y deja el color en gris
             if (NombreUsuario.Text == "")
-                NombreUsuario.Text = "Usuario";
+                NombreUsuario.Text = "DNI";
             NombreUsuario.ForeColor = Color.Gray;
         }
 

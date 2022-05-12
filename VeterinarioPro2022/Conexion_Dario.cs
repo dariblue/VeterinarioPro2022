@@ -9,11 +9,11 @@ using BCrypt;
 
 namespace VeterinarioPro2022
 {
-    class Conexion
+    class Conexion_Dario
     {
         public MySqlConnection conexion;
 
-        public Conexion()
+        public Conexion_Dario()
         {
             conexion = new MySqlConnection("Server = 127.0.0.1; Database = veterinario; Uid = VeterinarioPro; Pwd =liSenDrinCle; Port = 3306");
         }

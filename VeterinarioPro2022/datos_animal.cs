@@ -12,7 +12,7 @@ namespace VeterinarioPro2022
 {
     public partial class datos_animal : Form
     {
-        Conexion miConexion = new Conexion();
+        Conexion_Dario miConexion = new Conexion_Dario();
         DataTable veterinario = new DataTable();
         public datos_animal()
         {

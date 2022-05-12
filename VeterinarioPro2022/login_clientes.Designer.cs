@@ -79,9 +79,9 @@
             this.label_usuario.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label_usuario.Location = new System.Drawing.Point(152, 153);
             this.label_usuario.Name = "label_usuario";
-            this.label_usuario.Size = new System.Drawing.Size(146, 31);
+            this.label_usuario.Size = new System.Drawing.Size(65, 31);
             this.label_usuario.TabIndex = 2;
-            this.label_usuario.Text = "USUARIO";
+            this.label_usuario.Text = "DNI";
             // 
             // label1
             // 
@@ -135,7 +135,7 @@
             this.NombreUsuario.Name = "NombreUsuario";
             this.NombreUsuario.Size = new System.Drawing.Size(236, 35);
             this.NombreUsuario.TabIndex = 21;
-            this.NombreUsuario.Text = "Usuario";
+            this.NombreUsuario.Text = "DNI";
             this.NombreUsuario.Enter += new System.EventHandler(this.NombreUsuario_Enter);
             this.NombreUsuario.Leave += new System.EventHandler(this.NombreUsuario_Leave);
             // 

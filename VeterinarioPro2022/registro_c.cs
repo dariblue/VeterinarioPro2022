@@ -13,7 +13,7 @@ namespace VeterinarioPro2022
 {
     public partial class registro_c : Form
     {
-        Conexion conexion = new Conexion();
+        Conexion_Dario conexion = new Conexion_Dario();
         public registro_c()
         {
             InitializeComponent();
@@ -24,6 +24,11 @@ namespace VeterinarioPro2022
             String textoDeLaContraseña = text_contraseña.Text;
             string Hass = BCrypt.Net.BCrypt.HashPassword(textoDeLaContraseña, BCrypt.Net.BCrypt.GenerateSalt());
             MessageBox.Show(conexion.crea_Cliente(text_dni.Text, text_nombre.Text, text_usuario.Text, Hass));
+        }
+
+        private void b_atras_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }
